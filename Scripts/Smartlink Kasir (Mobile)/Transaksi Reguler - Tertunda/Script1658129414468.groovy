@@ -26,7 +26,7 @@ for (int i = 1; i <= 24; i++) {
 
     Mobile.tap(findTestObject('Kasir/Buat Transaksi/cari konsumen'), 0)
 
-    Mobile.sendKeys(findTestObject('Kasir/Buat Transaksi/cari konsumen'), 'zikri cek flow')
+    Mobile.sendKeys(findTestObject('Kasir/Buat Transaksi/cari konsumen'), 'zikri')
 
     WebUI.delay(3)
 
