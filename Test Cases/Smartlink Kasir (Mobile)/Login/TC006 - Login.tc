@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>username benar password salah</description>
+   <name>TC006 - Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>734ec538-0f74-499b-9d74-8c93ad1e608e</testCaseGuid>
+</TestCaseEntity>

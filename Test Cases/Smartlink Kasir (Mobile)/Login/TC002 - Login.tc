@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>username kosong</description>
+   <name>TC002 - Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b72a3ade-5e39-40ed-ab32-1e36a25a04a9</testCaseGuid>
+</TestCaseEntity>
