@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Transaksi Reguler - Tertunda</name>
+   <name>Topup Epayment</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>783a3144-88af-4fe4-ac9b-f0e0a28d4cd4</testCaseGuid>
+   <testCaseGuid>5d7d6c25-0cfa-46af-ba91-b35130ddddd3</testCaseGuid>
 </TestCaseEntity>

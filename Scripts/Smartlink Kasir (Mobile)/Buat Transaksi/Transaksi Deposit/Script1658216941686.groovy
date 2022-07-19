@@ -19,14 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.sinadme.kasirsinadme')
 
-for (int i = 1; i <= 24; i++) {
+for (int i = 1; i <= 1; i++) {
     Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/Buat Transaksi'), 0)
 
-    Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/Transaksi Reguler'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Transaksi Deposit/Transaksi Deposit'), 0)
 
     Mobile.tap(findTestObject('Kasir/Buat Transaksi/cari konsumen'), 0)
+	
+	WebUI.delay(3)
 
-    Mobile.sendKeys(findTestObject('Kasir/Buat Transaksi/cari konsumen'), 'zikri')
+    Mobile.sendKeys(findTestObject('Kasir/Buat Transaksi/cari konsumen'), 'aan')
 
     WebUI.delay(3)
 
@@ -36,25 +38,22 @@ for (int i = 1; i <= 24; i++) {
 
     Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/Lanjutkan'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/index 4 layanan'), 0)
+    //    if (Mobile.waitForElementPresent(findTestObject('Kasir/Buat Transaksi/Ya, Lanjutkan'), 0)) {
+    //        Mobile.tap(findTestObject('Kasir/Buat Transaksi/Ya, Lanjutkan'), 0)
+    //    }
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Transaksi Deposit/Pilih deposit'), 0)
 
-    Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/tambah kuantitas'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Transaksi Deposit/Tambah kuantitas Deposit'), 0)
 
-    Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/Keranjang'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Transaksi Deposit/Keranjang Deposit'), 0)
 
-    Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/Lanjutkan Layanan'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Transaksi Deposit/Lanjutkan Deposit'), 0)
 
     WebUI.delay(3)
 
-    Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/Lanjutkan Pengaturan'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Transaksi Deposit/Lanjutkan pengaturan deposit'), 0)
 
-    Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/Bayar'), 0)
-
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Bayar Nanti'), 0)
-
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Selesaikan'), 0)
-
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Simpan'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Transaksi Deposit/Selesaikan Deposit'), 0)
 
     WebUI.delay(5)
 
