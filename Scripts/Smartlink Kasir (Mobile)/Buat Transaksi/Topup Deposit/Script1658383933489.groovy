@@ -22,7 +22,7 @@ Mobile.startExistingApplication('com.sinadme.kasirsinadme')
 for (int i = 1; i <= 2; i++) {
     Mobile.tap(findTestObject('Object Repository/Kasir/Buat Transaksi/Buat Transaksi'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Topup Epayment'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Topup Deposit'), 0)
 
     Mobile.tap(findTestObject('Kasir/Buat Transaksi/cari konsumen'), 0)
 
@@ -39,25 +39,25 @@ for (int i = 1; i <= 2; i++) {
     //    if (Mobile.waitForElementPresent(findTestObject('Kasir/Buat Transaksi/Ya, Lanjutkan'), 0)) {
     //        Mobile.tap(findTestObject('Kasir/Buat Transaksi/Ya, Lanjutkan'), 0)
     //    }
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Paket topup epayment'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Pilih paket topup deposit'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/tambah pembelian'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Tambah pembelian'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Beli'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Beli'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Bayar'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Bayar'), 0)
 
     WebUI.delay(3)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Tambah Metode'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Tambah metode bayar'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Tunai'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/tunai'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Bayar Sesuai'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Bayar Sesuai'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Simpan Pembayaran'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Simpan pembayaran'), 0)
 
-    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Epayment/Bayar Finish'), 0)
+    Mobile.tap(findTestObject('Kasir/Buat Transaksi/Topup Deposit/Bayar final'), 0)
 
     WebUI.delay(5)
 
